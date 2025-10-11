@@ -1,0 +1,22 @@
+function About() {
+  return (
+    <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 mb-20 text-center md:text-left">
+      {/* Text section */}
+      <div className="text-white mx-auto max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl">
+        <h1 className="text-5xl font-semibold mb-4">Hi, I'm Liam</h1>
+        <p className="text-2xl">
+          I am a software developer blah blah blah blah blah blah
+        </p>
+      </div>
+
+      {/* Image section */}
+      <img
+        src="/images/pfp.jpeg"
+        className="rounded-full w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] object-cover"
+        alt="Profile"
+      />
+    </section>
+  )
+}
+
+export default About
