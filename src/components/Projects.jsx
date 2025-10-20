@@ -8,7 +8,7 @@ function Projects() {
           <a href="https://github.com/liammn246/CharacterSwipe" target="_blank">
           {/* Project 1 */}
           <div className="bg-[#1c1c1f] rounded-xl shadow-lg overflow-hidden border border-[#2e2e33] hover:scale-[1.01] transition-transform duration-300">
-            <img src="/images/aoe2_vill.png" alt="CharacterSwipe" className="w-full h-56 object-cover" />
+            <img src="/images/CharacterSwipe.png" alt="CharacterSwipe" className="w-full h-56 object-contain bg-[#1c1c1f] p-1" />
             <div className="p-6">
               <h2 className="text-white text-xl font-bold mb-1">CharacterSwipe</h2>
               <p className="text-gray-400 text-sm mb-3">Full Stack</p>
