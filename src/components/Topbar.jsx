@@ -7,7 +7,7 @@ function Topbar() {
             </div>
             {/* Links */}
             <div className="mr-5 flex items-center space-x-3"> 
-                <div className="w-12 h-12 bg-[#0d0d0d] flex items-center justify-center">
+                <div className="w-12 h-12 bg-gray-700 flex items-center justify-center">
                     <a href="https://github.com/liammn246" target="_blank">
                         <img src="/images/github_logo.png" className="h-9 w-9"/>
                     </a>
