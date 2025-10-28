@@ -47,7 +47,24 @@ function Projects() {
             </div>
           </div>
           </a>
-
+          <a href="https://github.com/liammn246/http-server#" target="_blank">
+          {/* Project 3 */}
+          <div className="bg-[#1c1c1f] rounded-xl shadow-lg overflow-hidden border border-[#2e2e33] hover:scale-[1.01] transition-transform duration-300">
+            <img src="/images/server_temp.png" alt="BlogApp" className="w-full h-56 object-cover" />
+            <div className="p-6">
+              <h2 className="text-white text-xl font-bold mb-1">HTTP Server</h2>
+              <p className="text-gray-400 text-sm mb-3">Full Stack</p>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+               I built a lightweight HTTP server in C to learn how web communication works at a low level. It uses sockets to handle client connections, parses HTTP requests, and serves HTML pages from the local system. 
+               This project helped me understand how data moves through the internet—from TCP connections to browser rendering—and strengthened my skills in C programming, networking, and systems-level development.
+              </p>
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 mt-2">
+                <span className="text-xs text-gray-300 bg-[#2e2e33] px-2 py-1 rounded-md">C</span>
+              </div>
+            </div>
+          </div>
+          </a>
         </div>
       </div>
     </section>
