@@ -11,7 +11,7 @@ function Projects() {
             <img src="/images/CharacterSwipe.png" alt="CharacterSwipe" className="w-full h-56 object-contain bg-[#1c1c1f] p-1" />
             <div className="p-6">
               <h2 className="text-white text-xl font-bold mb-1">CharacterSwipe</h2>
-              <p className="text-gray-400 text-sm mb-3">Full Stack</p>
+              <p className="text-gray-400 text-sm mb-3">Backend</p>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
                 Developed CharacterSwipe, a mobile game inspired by 2048, with dynamic animations and engaging backgrounds. 
                 Worked with a small team of students through the game development cycle, including design, coding, testing, and release.
@@ -26,8 +26,29 @@ function Projects() {
             </div>
           </div>
           </a>
-          <a href="https://github.com/liammn246/Fullstack-Blog-App" target="_blank">
+          <a href="https://github.com/liammn246/SongVote" target="_blank">
           {/* Project 2 */}
+          <div className="bg-[#1c1c1f] rounded-xl shadow-lg overflow-hidden border border-[#2e2e33] hover:scale-[1.01] transition-transform duration-300">
+            <img src="/images/SongVote.png" alt="SongVote" className="w-full h-56 object-cover" />
+            <div className="p-6">
+              <h2 className="text-white text-xl font-bold mb-1">SongVote</h2>
+              <p className="text-gray-400 text-sm mb-3">Full Stack</p>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                A website which allows players to submit songs and vote amongst themselves on which one is the best.
+                In order to allow real-time multiplayer, I learned to use websockets. The frontend was built with React and TailwindCSS, as well as AI assistance for styling. 
+                The backend was built with FastAPI in order to handle websocket and post requests.
+              </p>
+              {/* Tags */}
+              <div className="flex flex-wrap gap-2 mt-2">
+                <span className="text-xs text-gray-300 bg-[#2e2e33] px-2 py-1 rounded-md">React</span>
+                <span className="text-xs text-gray-300 bg-[#2e2e33] px-2 py-1 rounded-md">FastAPI</span>
+                <span className="text-xs text-gray-300 bg-[#2e2e33] px-2 py-1 rounded-md">WebSockets</span>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="https://github.com/liammn246/Fullstack-Blog-App" target="_blank">
+          {/* Project 3 */}
           <div className="bg-[#1c1c1f] rounded-xl shadow-lg overflow-hidden border border-[#2e2e33] hover:scale-[1.01] transition-transform duration-300">
             <img src="/images/blog_home.png" alt="BlogApp" className="w-full h-56 object-cover" />
             <div className="p-6">
@@ -47,13 +68,13 @@ function Projects() {
             </div>
           </div>
           </a>
+
           <a href="https://github.com/liammn246/http-server#" target="_blank">
-          {/* Project 3 */}
+          {/* Project 4 */}
           <div className="bg-[#1c1c1f] rounded-xl shadow-lg overflow-hidden border border-[#2e2e33] hover:scale-[1.01] transition-transform duration-300">
             <img src="/images/server_temp.png" alt="BlogApp" className="w-full h-56 object-cover" />
             <div className="p-6">
               <h2 className="text-white text-xl font-bold mb-1">HTTP Server</h2>
-              <p className="text-gray-400 text-sm mb-3">Full Stack</p>
               <p className="text-gray-300 text-sm leading-relaxed mb-4">
                I built a lightweight HTTP server in C to learn how web communication works at a low level. It uses sockets to handle client connections, parses HTTP requests, and serves HTML pages from the local system. 
                This project helped me understand how data moves through the internet—from TCP connections to browser rendering—and strengthened my skills in C programming, networking, and systems-level development.
